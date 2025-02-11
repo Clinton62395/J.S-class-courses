@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        // const name ="billy doumbouya";
+        // const age = "20";
+        // const sentence = `My name is ${name} I am ${age}`;
+        // console.log(sentence);
+
+        const num1 = 1234;
+        const num2 =Number("123");
+        const total = num1 + num2;
+        console.log(total);
+
+        //convert string to number
+        const nmB1 = "hello";
+        const nmB2 = Number ("1234")
+        console.log(nmB1 + nmB2);
+
+
+        //string() convert number to string
+        const str1 = "hello";
+        const str2 = String("123");
+        console.log(str1 + str2);
+
+
+        //boolean() type true or false
+        let isBoy = true;
+        console.log(isBoy);
+        let isGirl = false;
+        console.log(isGirl);
+
+        let Test = Boolean("10");
+        console.log(Test);
+
+        //undefined - no value
+        let Smart;
+        console.log(Smart);
+
+        let someThing = undefined;
+        console.log(someThing);
+
+        //null - no value
+        let anotherthing = null;
+        console.log(anotherthing);
+
+        // non primitive types of data
+        let listOfFood = [ "rice"," apple" , "ananas" , "orange" , "beance"];
+        console.log(listOfFood);
+        console.log(listOfFood [2]);
+
+        let listOfDataTypes = [5, "hello" , true , false , null , undefined];
+        console.log(listOfDataTypes);
+        console.log(listOfDataTypes [3]);
+
+        //objects with data
+
+        let mySelf = {
+            Firsname: "Billy",
+            lastname: "Doumbouya",
+            age: 30,
+            country: "Guinea",
+            attended: "valeMax coders hub",
+            favouritefouds:["rice","apple", "orange", "Beances" ]
+        }
+        console.log(`My name is ${mySelf.Firsname} ${mySelf.lastname} I am ${mySelf.age} on of my favorite food is ${mySelf.favouritefouds[0]} I am from ${mySelf.country}`);
+
+        const allValuesMaxStudent = [
+            {name: "Billy", age: 34 , country: "Guinea" }, 
+            {name: "Dele" , age: 40 , country: "Nigeria"},
+            {name: "Tobi" , age: 40 , country: "Nigeria"},
+            {name: "Musa", age: 15 , country: "Senegal" }, 
+            {name: "Thiam" , age: 24 , country: "Morocco" },
+            {name: "fabrice" , age: 28 , country: "Togo"},
+
+        ]
+        console.log(`${allValuesMaxStudent[2].name} is  ${allValuesMaxStudent[2].age} years old and his is from ${allValuesMaxStudent[2].country}`);
+
+
+    </script>
+</body>
+</html>
